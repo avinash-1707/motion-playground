@@ -1,5 +1,5 @@
-import MotionButton from "@/components/button";
+import Playground from "@/components/playground";
 
 export default function Home() {
-  return <MotionButton />;
+  return <Playground />;
 }
