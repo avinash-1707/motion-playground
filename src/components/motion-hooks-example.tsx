@@ -24,7 +24,6 @@ export default function MotionHookEx() {
 
   useMotionValueEvent(scrollYProgress, "change", (latest) => {
     const finalValue = Math.floor(latest * backgrounds.length);
-    console.log(finalValue);
     setBackground(backgrounds[finalValue]);
   });
   return (
